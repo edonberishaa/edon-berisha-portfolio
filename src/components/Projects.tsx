@@ -48,8 +48,7 @@ const projectData: ProjectProps[] = [
       "Web app being developed using ASP.NET and Angular. The primary goal of this project is to create a comprehensive platform for managing and purchasing books"
     ],
     github: "https://github.com/edonberishaa/BookStoreApp",
-    technologies: ["ASP.NET", "Angular", "SQL Server"],
-    status: "In Development"
+    technologies: ["ASP.NET", "Angular", "SQL Server"]
   },
   {
     title: "Attendance System",
