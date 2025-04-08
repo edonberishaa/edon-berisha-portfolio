@@ -51,8 +51,18 @@ const projectData: ProjectProps[] = [
     technologies: ["ASP.NET", "Angular", "SQL Server"]
   },
   {
-    title: "Attendance System",
+    title: "BlogSite CSE",
     date: "February 2025",
+    description: [
+      "The primary goal of this project is to create a comprehensive platform for CSE News in Kosovo! While the project is still in progress, significant steps have been taken towards building its core functionality"
+    ],
+    github: "https://github.com/edonberishaa/BlogSiteCSE",
+    technologies: ["ASP.NET Core MVC", "SQL Server"],
+    status: "In Development"
+  },
+  {
+    title: "Attendance System",
+    date: "March 2025",
     description: [
       "Developing an Attendance System Software to track attendance of students in university via a fingerprint sensor (using Arduino), and creating a GUI using ASP.NET Core MVC and SQL Server."
     ],
