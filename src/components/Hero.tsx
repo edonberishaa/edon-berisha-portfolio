@@ -1,6 +1,7 @@
 
 import { ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const Hero = () => {
   return (
@@ -28,9 +29,14 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex justify-center lg:justify-end">
-            <div className="w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 bg-gradient-to-tr from-portfolio-blue to-blue-300 rounded-full flex items-center justify-center text-white text-5xl md:text-7xl font-bold opacity-90">
-              EB
-            </div>
+            <Avatar className="w-64 h-64 lg:w-80 lg:h-80">
+              <AvatarImage 
+                src="/edon-profile.png" 
+                alt="Edon Berisha" 
+                className="object-cover"
+              />
+              <AvatarFallback>EB</AvatarFallback>
+            </Avatar>
           </div>
         </div>
       </div>
