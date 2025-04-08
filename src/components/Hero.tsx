@@ -31,7 +31,7 @@ const Hero = () => {
           <div className="flex justify-center lg:justify-end">
             <Avatar className="w-64 h-64 lg:w-80 lg:h-80">
               <AvatarImage 
-                src="/edon-profile.png" 
+                src="/IMG_0867.JPG" 
                 alt="Edon Berisha" 
                 className="object-cover"
               />
