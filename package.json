@@ -4,8 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "update:repos": "ts-node fetchRepos.ts",
+    "dev": "npm run update:repos && vite",
+    "build": "npm run update:repos && vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview"
