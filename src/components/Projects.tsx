@@ -69,6 +69,15 @@ const projectData: ProjectProps[] = [
     github: "https://github.com/edonberishaa/AttendanceSystem",
     technologies: ["Arduino", "ASP.NET Core MVC", "SQL Server"],
     status: "In Development"
+  },
+  {
+    title: "Advanced Churn ETL Pipeline",
+    date : "June 2025",
+    description: [
+      "This project is an end-to-end, production-ready customer churn prediction pipeline built with Apache Airflow, using advanced features like Task Groups, XComs, and Sensors. It simulates a real-world data engineering workflow for a SaaS company trying to predict which customers are likely to churn."
+    ],
+    github: "https://github.com/edonberishaa/advanced-churn-pipeline",
+    technologies: ["Apache Airflow","Python","Scikit","Docker"]
   }
 ];
 
