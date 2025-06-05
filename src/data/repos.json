@@ -53,10 +53,4 @@
     "url": "https://github.com/edonberishaa/StudentsTranscript",
     "readme": "Students transcript API using ASP.NET core Web API\n"
   },
-  {
-    "name": "advanced-churn-pipeline",
-    "description": "This project is an end-to-end, production-ready customer churn prediction pipeline built with Apache Airflow, using advanced features like Task Groups, XComs, and Sensors. It simulates a real-world data engineering workflow for a SaaS company trying to predict which customers are likely to churn.",
-    "url": "https://github.com/edonberishaa/advanced-churn-pipeline",
-    "readme": "# Advanced Churn ETL Pipeline\n\nThis project is an end-to-end, production-ready customer churn prediction pipeline built with Apache Airflow, using advanced features like Task Groups, XComs, and Sensors. It simulates a real-world data engineering workflow for a SaaS company trying to predict which customers are likely to churn.\n\n## Technologies Used\n- Apache Airflow\n- Python\n- Scikit-learn\n- Docker"
-  }
 ]
