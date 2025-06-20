@@ -51,14 +51,14 @@ const projectData: ProjectProps[] = [
     technologies: ["ASP.NET", "Angular", "SQL Server"]
   },
   {
-    title: "BlogSite CSE",
-    date: "February 2025",
+    title: "Production System",
+    date: "May 2025 - June 2025",
     description: [
-      "The primary goal of this project is to create a comprehensive platform for CSE News in Kosovo! While the project is still in progress, significant steps have been taken towards building its core functionality"
+      "A bakery management solution for production tracking, inventory control, and sales management"
     ],
-    github: "https://github.com/edonberishaa/BlogSiteCSE",
+    github: "https://github.com/edonberishaa/Production-System",
     technologies: ["ASP.NET Core MVC", "SQL Server"],
-    status: "In Development"
+    status: "Developed"
   },
   {
     title: "Attendance System",
