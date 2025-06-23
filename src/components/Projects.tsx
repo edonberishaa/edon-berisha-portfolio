@@ -54,11 +54,10 @@ const projectData: ProjectProps[] = [
     title: "Production System",
     date: "May 2025 - June 2025",
     description: [
-      "A bakery management solution for production tracking, inventory control, and sales management"
+      "A smart, end-to-end bakery management solution for tracking production, managing inventory, handling sales, and now enhanced with AI and automated documentation!"
     ],
     github: "https://github.com/edonberishaa/Production-System",
-    technologies: ["ASP.NET Core MVC", "SQL Server"],
-    status: "Developed"
+    technologies: ["ASP.NET Core MVC", "SQL Server"]
   },
   {
     title: "Attendance System",
@@ -67,8 +66,7 @@ const projectData: ProjectProps[] = [
       "Developing an Attendance System Software to track attendance of students in university via a fingerprint sensor (using Arduino), and creating a GUI using ASP.NET Core MVC and SQL Server."
     ],
     github: "https://github.com/edonberishaa/AttendanceSystem",
-    technologies: ["Arduino", "ASP.NET Core MVC", "SQL Server"],
-    status: "In Development"
+    technologies: ["Arduino", "ASP.NET Core MVC", "SQL Server"]
   },
   {
     title: "Advanced Churn ETL Pipeline",
