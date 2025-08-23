@@ -42,15 +42,6 @@ const projectData: ProjectProps[] = [
     technologies: ["C#"]
   },
   {
-    title: "Book Store Web Application",
-    date: "November 2024 - January 2025",
-    description: [
-      "Web app being developed using ASP.NET and Angular. The primary goal of this project is to create a comprehensive platform for managing and purchasing books"
-    ],
-    github: "https://github.com/edonberishaa/BookStoreApp",
-    technologies: ["ASP.NET", "Angular", "SQL Server"]
-  },
-  {
     title: "Production System",
     date: "May 2025 - June 2025",
     description: [

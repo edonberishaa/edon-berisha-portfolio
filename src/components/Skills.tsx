@@ -11,7 +11,7 @@ const Skills = () => {
     },
     {
       title: "Frameworks",
-      skills: ["ASP.NET Web API", "ASP.NET Core MVC", "Angular (fundamental skills)"]
+      skills: ["ASP.NET Web API", "ASP.NET Core MVC", "React", "Angular (fundamental skills)"]
     },
     {
       title: "Database",

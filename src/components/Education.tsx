@@ -32,7 +32,7 @@ const Education = () => {
                 </div>
                 
                 <div className="space-y-3 text-gray-600">
-                  <p className="font-semibold text-portfolio-blue">GPA: 9.25/10.00</p>
+                  <p className="font-semibold text-portfolio-blue">GPA: 9.35/10.00</p>
                   <p><span className="font-medium">Related Coursework:</span> Data Structures & Algorithms, Database Management, Web Development and Internet, Software Engineering, Computer Organization & Programming, Combinatorics, Big Data, Object-Oriented Programming, Statistics, Data Security</p>
                 </div>
               </div>
