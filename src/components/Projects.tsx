@@ -54,10 +54,11 @@ const projectData: ProjectProps[] = [
     title: "Attendance System",
     date: "March 2025",
     description: [
-      "Developing an Attendance System Software to track attendance of students in university via a fingerprint sensor (using Arduino), and creating a GUI using ASP.NET Core MVC and SQL Server."
+      "Developed an Attendance System Software to track attendance of students in university via a fingerprint sensor (using Arduino), with a GUI using ASP.NET Core MVC and SQL Server."
     ],
     github: "https://github.com/edonberishaa/AttendanceSystem",
-    technologies: ["Arduino", "ASP.NET Core MVC", "SQL Server"]
+    technologies: ["Arduino", "ASP.NET Core MVC", "SQL Server"],
+    status: "Developed"
   },
   {
     title: "Advanced Churn ETL Pipeline",
