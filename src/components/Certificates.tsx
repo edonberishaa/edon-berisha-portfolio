@@ -9,15 +9,27 @@ const Certificates = () => {
       title: "Core Web Vitals",
       issuer: "Google Developers Group Prishtina",
       type: "Web Performance",
-      description: "Certification in web performance optimization and Core Web Vitals metrics"
+      description: "Certification in web performance optimization and Core Web Vitals metrics",
+      pdfPath: "/certificates/Google - Certificate - Edon Berisha.pdf"
     },
     {
       title: "Data Engineer Certificate",
       issuer: "DataCamp",
       type: "Data Engineering",
-      description: "Professional certification in data engineering fundamentals and best practices"
+      description: "Professional certification in data engineering fundamentals and best practices",
+      pdfPath: "/certificates/Data Engineer Certificate.pdf"
     }
   ];
+
+  const handleDownload = (pdfPath: string, title: string) => {
+    const link = document.createElement('a');
+    link.href = pdfPath;
+    link.download = `${title}.pdf`;
+    link.target = '_blank';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <section id="certificates" className="py-20 bg-gray-50">
@@ -50,9 +62,14 @@ const Certificates = () => {
                       {certificate.type}
                     </Badge>
                     <p className="text-gray-600 text-sm mb-4">{certificate.description}</p>
-                    <Button variant="outline" size="sm" className="gap-2" disabled>
+                    <Button 
+                      variant="outline" 
+                      size="sm" 
+                      className="gap-2 hover:bg-portfolio-blue hover:text-white transition-colors" 
+                      onClick={() => handleDownload(certificate.pdfPath, certificate.title)}
+                    >
                       <Download className="h-4 w-4" />
-                      <span>PDF Available</span>
+                      <span>Download PDF</span>
                     </Button>
                   </div>
                 </div>
