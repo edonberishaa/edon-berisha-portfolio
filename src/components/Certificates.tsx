@@ -18,6 +18,13 @@ const Certificates = () => {
       type: "Data Engineering",
       description: "Professional certification in data engineering fundamentals and best practices",
       pdfPath: "/certificates/Data Engineer Certificate.pdf"
+    },
+    {
+      title: "Web Application Development Professional",
+      issuer: "ICT Kosova",
+      type: "Web Application Development",
+      description:"Professional certification in Web Application Development",
+      pdfPath:"/certificates/Web-App-Cert.pdf"
     }
   ];
 
