@@ -1,16 +1,9 @@
-import { Trophy, Award, Briefcase } from "lucide-react";
+import { Trophy, Award } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 const Experience = () => {
   const achievements = [
-    {
-      title: "Full Stack Engineer Intern",
-      organization: "XponentL Data",
-      type: "Current",
-      icon: Briefcase,
-      description: "Working as a Full Stack Engineer Intern developing web applications"
-    },
     {
       title: "Hackathon Winner",
       organization: "Pristina.Innovate.Healthcare",
@@ -53,11 +46,7 @@ const Experience = () => {
                         <h3 className="font-semibold text-lg text-gray-800">{achievement.title}</h3>
                         <Badge 
                           variant="secondary" 
-                          className={
-                            achievement.type === 'Winner' ? 'bg-yellow-100 text-yellow-800' : 
-                            achievement.type === 'Current' ? 'bg-green-100 text-green-800' : 
-                            'bg-blue-100 text-blue-800'
-                          }
+                          className={achievement.type === 'Winner' ? 'bg-yellow-100 text-yellow-800' : 'bg-blue-100 text-blue-800'}
                         >
                           {achievement.type}
                         </Badge>
