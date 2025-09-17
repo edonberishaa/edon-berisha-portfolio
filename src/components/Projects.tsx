@@ -33,15 +33,6 @@ const projectData: ProjectProps[] = [
     technologies: ["C#", "SQL Server"]
   },
   {
-    title: "Exam Maker Application",
-    date: "September 2024 - October 2024",
-    description: [
-      "Designed to simplify the process of managing and taking exams. The exam can be held online directly, or you can print the questions you create by double-clicking."
-    ],
-    github: "https://github.com/edonberishaa/ExamApplication",
-    technologies: ["C#"]
-  },
-  {
     title: "Production System",
     date: "May 2025 - June 2025",
     description: [
@@ -58,7 +49,16 @@ const projectData: ProjectProps[] = [
     ],
     github: "https://github.com/edonberishaa/AttendanceSystem",
     technologies: ["Arduino", "ASP.NET Core MVC", "SQL Server"],
-    status: "Developed"
+  },
+  {
+    title: "Villa Rental App",
+    date: "April 2025",
+    description: [
+      "A full-stack villa rental platform with advanced booking, review, owner management, and wishlist features, built using ASP.NET Core and React"
+    ],
+    github: "https://github.com/edonberishaa/villa-rental-app",
+    technologies: ["React, ASP.NET Core Web API, SQL Server"],
+    status: "Developing"
   },
   {
     title: "Advanced Churn ETL Pipeline",
