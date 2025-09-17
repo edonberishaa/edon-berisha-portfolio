@@ -57,7 +57,7 @@ const projectData: ProjectProps[] = [
       "A full-stack villa rental platform with advanced booking, review, owner management, and wishlist features, built using ASP.NET Core and React"
     ],
     github: "https://github.com/edonberishaa/villa-rental-app",
-    technologies: ["React, ASP.NET Core Web API, SQL Server"],
+    technologies: ["React", "ASP.NET Core Web API", "SQL Server"],
     status: "Developing"
   },
   {
