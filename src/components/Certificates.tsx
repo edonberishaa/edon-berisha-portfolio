@@ -6,6 +6,27 @@ import { Badge } from "@/components/ui/badge";
 const Certificates = () => {
   const certificates = [
     {
+      title: "TypeScript Complete Course",
+      issuer: "Udemy",
+      type: "Programming Language",
+      description: "Comprehensive certification in TypeScript programming language",
+      pdfPath: "/certificates/Typescript_certificate.pdf"
+    },
+    {
+      title: "PostgreSQL Database Course",
+      issuer: "Udemy",
+      type: "Database",
+      description: "Professional certification in PostgreSQL database management",
+      pdfPath: "/certificates/Postgres_Certificate_SQL.pdf"
+    },
+    {
+      title: "Git Version Control",
+      issuer: "Udemy",
+      type: "Developer Tools",
+      description: "Certification in Git version control system and workflows",
+      pdfPath: "/certificates/GIT_Certificate_-_Edon_Berisha.pdf"
+    },
+    {
       title: "Core Web Vitals",
       issuer: "Google Developers Group Prishtina",
       type: "Web Performance",
