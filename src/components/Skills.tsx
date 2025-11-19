@@ -15,7 +15,7 @@ const Skills = () => {
     },
     {
       title: "Database",
-      skills: ["SQL Server", "MySQL", "Data Engineering Fundamentals"]
+      skills: ["PostgreSQL", "SQL Server", "MySQL", "Data Engineering Fundamentals"]
     },
     {
       title: "Tools & Technologies",
