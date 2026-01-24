@@ -13,9 +13,7 @@ const Hero = () => {
               Hi, I'm <span className="text-portfolio-blue">Edon Berisha</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 max-w-2xl">
-              A Computer Science student at Universiteti "Isa Boletini", 
-              passionate about building websites and applications that solve real-world problems.
-            </p>
+Full Stack Engineer at a major tech company, crafting scalable, secure, and visually compelling digital solutions. With a strong foundation in computer science and a passion for solving real-world problems, I design and build applications that combine performance with great user experience.            </p>
             <div className="flex flex-wrap gap-3">
               <Button asChild size="lg">
                 <a href="#projects">View My Projects</a>
