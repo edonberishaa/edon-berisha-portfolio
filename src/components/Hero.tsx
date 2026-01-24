@@ -13,8 +13,7 @@ const Hero = () => {
               Hi, I'm <span className="text-portfolio-blue">Edon Berisha</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 max-w-2xl">
-Full Stack Engineer at a major tech company, crafting scalable, secure, and visually compelling digital solutions. With a strong foundation in computer science and a passion for solving real-world problems, I design and build applications that combine performance with great user experience.            </p>
-            <div className="flex flex-wrap gap-3">
+Full Stack Engineer specializing in building fast, scalable, and secure web applications. Currently contributing to enterprise-level solutions at a leading global company, with a focus on delivering high-performance and visually engaging products.            <div className="flex flex-wrap gap-3">
               <Button asChild size="lg">
                 <a href="#projects">View My Projects</a>
               </Button>
