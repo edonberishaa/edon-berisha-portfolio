@@ -22,7 +22,7 @@ const Hero = () => {
               </Button>
             </div>
             <div className="text-gray-600 flex items-center mt-4">
-              <p className="text-sm">Kosovo Citizen | Computer Science Student</p>
+              <p className="text-sm">Kosovo Citizen | Full-Stack Engineer</p>
             </div>
           </div>
           <div className="flex justify-center lg:justify-end">
