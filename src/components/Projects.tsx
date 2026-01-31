@@ -11,32 +11,46 @@ interface ProjectProps {
   github: string;
   technologies: string[];
   status?: string;
+  liveLink?: string;
 }
 
 const projectData: ProjectProps[] = [
   {
-    title: "Movie Tickets Web App",
-    date: "January 2025",
+    title: "UMIB Student Application",
+    date: "December 2025 - January 2026",
     description: [
-      "Developed an E-Commerce Web Application that includes CRUD operations, connection with database, identity management and payment integration"
+      "Comprehensive academic ecosystem with React Native mobile app, web admin dashboard, and AI chatbot assistant.",
+      "Features real-time timetabling, push notifications, and secure data management using Expo, TypeScript & NativeWind."
     ],
-    github: "https://github.com/edonberishaa/MovieTickets",
-    technologies: ["ASP.NET Core MVC", "SQL Server"]
+    github: "https://github.com/edonberishaa/UMIB-Student-App",
+    technologies: ["React Native", "Expo", "TypeScript", "NativeWind"]
   },
   {
-    title: "PC Management Desktop Application",
-    date: "June 2024 - August 2024",
+    title: "The Wild Oasis",
+    date: "November 2025",
     description: [
-      "System for managing computers in a gaming center, allowing users to track usage time, calculate earnings and handle orders efficiently."
+      "High-performance cabin booking platform with SSR for fast speeds and SEO optimization.",
+      "Features real-time availability, NextAuth authentication, and intuitive booking management dashboard."
     ],
-    github: "https://github.com/edonberishaa/PcManagmentDesktopApp",
-    technologies: ["C#", "SQL Server"]
+    github: "",
+    liveLink: "https://oasis-wild-ebon.vercel.app/",
+    technologies: ["Next.js 14", "Supabase", "Tailwind CSS", "NextAuth"]
+  },
+  {
+    title: "WorldWise",
+    date: "November 2025",
+    description: [
+      "Dynamic travel tracking app with interactive map visualization using React and Leaflet.",
+      "Features context-based state management, geolocation integration, and protected routes."
+    ],
+    github: "https://github.com/edonberishaa/react-world-wise",
+    technologies: ["React", "Leaflet", "Context API"]
   },
   {
     title: "Production System",
     date: "May 2025 - June 2025",
     description: [
-      "A smart, end-to-end bakery management solution for tracking production, managing inventory, handling sales, and now enhanced with AI and automated documentation!"
+      "Smart bakery management solution for tracking production, inventory, sales with AI-enhanced documentation."
     ],
     github: "https://github.com/edonberishaa/Production-System",
     technologies: ["ASP.NET Core MVC", "SQL Server"]
@@ -45,29 +59,19 @@ const projectData: ProjectProps[] = [
     title: "Attendance System",
     date: "March 2025",
     description: [
-      "Developed an Attendance System Software to track attendance of students in university via a fingerprint sensor (using Arduino), with a GUI using ASP.NET Core MVC and SQL Server."
+      "Attendance tracking software using Arduino fingerprint sensor with ASP.NET Core MVC interface."
     ],
     github: "https://github.com/edonberishaa/AttendanceSystem",
-    technologies: ["Arduino", "ASP.NET Core MVC", "SQL Server"],
-  },
-  {
-    title: "Villa Rental App",
-    date: "April 2025",
-    description: [
-      "A full-stack villa rental platform with advanced booking, review, owner management, and wishlist features, built using ASP.NET Core and React"
-    ],
-    github: "https://github.com/edonberishaa/villa-rental-app",
-    technologies: ["React", "ASP.NET Core Web API", "SQL Server"],
-    status: "Developing"
+    technologies: ["Arduino", "ASP.NET Core MVC", "SQL Server"]
   },
   {
     title: "Advanced Churn ETL Pipeline",
-    date : "June 2025",
+    date: "June 2025",
     description: [
-      "This project is an end-to-end, production-ready customer churn prediction pipeline built with Apache Airflow, using advanced features like Task Groups, XComs, and Sensors. It simulates a real-world data engineering workflow for a SaaS company trying to predict which customers are likely to churn."
+      "Production-ready customer churn prediction pipeline with Apache Airflow, Task Groups, XComs & Sensors."
     ],
     github: "https://github.com/edonberishaa/advanced-churn-pipeline",
-    technologies: ["Apache Airflow","Python","Scikit","Docker"]
+    technologies: ["Apache Airflow", "Python", "Scikit", "Docker"]
   }
 ];
 
@@ -99,13 +103,23 @@ const ProjectCard = ({ project }: { project: ProjectProps }) => {
           ))}
         </div>
       </CardContent>
-      <CardFooter>
-        <Button variant="ghost" size="sm" className="gap-1" asChild>
-          <a href={project.github} target="_blank" rel="noopener noreferrer">
-            <Github className="h-4 w-4" />
-            <span>GitHub</span>
-          </a>
-        </Button>
+      <CardFooter className="gap-2">
+        {project.github && (
+          <Button variant="ghost" size="sm" className="gap-1" asChild>
+            <a href={project.github} target="_blank" rel="noopener noreferrer">
+              <Github className="h-4 w-4" />
+              <span>GitHub</span>
+            </a>
+          </Button>
+        )}
+        {project.liveLink && (
+          <Button variant="ghost" size="sm" className="gap-1" asChild>
+            <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
+              <ExternalLink className="h-4 w-4" />
+              <span>Live Demo</span>
+            </a>
+          </Button>
+        )}
       </CardFooter>
     </Card>
   );
