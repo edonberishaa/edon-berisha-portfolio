@@ -6,6 +6,13 @@ import { Badge } from "@/components/ui/badge";
 const Certificates = () => {
   const certificates = [
     {
+      title: "Azure Fundamentals (AZ-900)",
+      issuer: "Microsoft",
+      type: "Cloud Computing",
+      description: "Official Microsoft certification in Azure cloud fundamentals and services",
+      pdfPath: "/certificates/AZ-900_Certified.pdf"
+    },
+    {
       title: "TypeScript Complete Course",
       issuer: "Udemy",
       type: "Programming Language",
