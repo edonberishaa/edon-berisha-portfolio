@@ -11,11 +11,19 @@ const Skills = () => {
     },
     {
       title: "Frameworks",
-      skills: ["ASP.NET Web API", "ASP.NET Core MVC", "React", "Angular (fundamental skills)"]
+      skills: ["ASP.NET Web API", "ASP.NET Core MVC", "React", "FastAPI", "Angular (fundamental skills)"]
     },
     {
       title: "Database",
       skills: ["PostgreSQL", "SQL Server", "MySQL", "Data Engineering Fundamentals"]
+    },
+    {
+      title: "DevOps",
+      skills: ["GitHub Actions", "Terraform", "Docker", "AWS", "Azure"]
+    },
+    {
+      title: "Monitoring & Observability",
+      skills: ["Sentry"]
     },
     {
       title: "Tools & Technologies",
