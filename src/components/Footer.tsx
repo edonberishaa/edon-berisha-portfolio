@@ -13,7 +13,7 @@ const Footer = () => {
               Edon<span className="text-portfolio-blue">Berisha</span>
             </h2>
             <p className="mt-2 text-gray-400 text-sm">
-              Computer Science &amp; Engineering Student
+              Full Stack Engineer
             </p>
           </div>
           

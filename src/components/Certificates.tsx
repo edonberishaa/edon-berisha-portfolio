@@ -51,8 +51,22 @@ const Certificates = () => {
       title: "Web Application Development Professional",
       issuer: "ICT Kosova",
       type: "Web Application Development",
-      description:"Professional certification in Web Application Development",
-      pdfPath:"/certificates/Web-App-Cert.pdf"
+      description: "Professional certification in Web Application Development",
+      pdfPath: "/certificates/Web-App-Cert.pdf"
+    },
+    {
+      title: "AI Agentic Fundamentals",
+      issuer: "Frontend Masters",
+      type: "Artificial Intelligence",
+      description: "Certification in building AI agents with modern agentic patterns",
+      pdfPath: "/certificates/AI_Agentic_Fundamentals_FrontendMasters.pdf"
+    },
+    {
+      title: "JavaScript: The Hard Parts",
+      issuer: "Frontend Masters",
+      type: "Programming Language",
+      description: "Deep-dive certification covering closures, async, and the JS engine under the hood",
+      pdfPath: "/certificates/JavaScript_Hard_Parts_FrontendMasters.pdf"
     }
   ];
 
