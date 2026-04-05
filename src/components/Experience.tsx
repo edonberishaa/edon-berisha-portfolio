@@ -5,11 +5,11 @@ import { Badge } from "@/components/ui/badge";
 const Experience = () => {
   const achievements = [
     {
-      title: "Full Stack Engineer Intern",
+      title: "Full Stack Engineer",
       organization: "Genpact/Xponential",
       type: "Current",
       icon: Briefcase,
-      description: "Working as a Full Stack Engineer Intern developing web applications"
+      description: "Building and maintaining full-stack web applications in a professional environment"
     },
     {
       title: "Hackathon Winner",
