@@ -6,7 +6,7 @@ const Experience = () => {
   const achievements = [
     {
       title: "Full Stack Engineer",
-      organization: "Genpact/Xponential",
+      organization: "Genpact",
       type: "Current",
       icon: Briefcase,
       description: "Building and maintaining full-stack web applications in a professional environment"
